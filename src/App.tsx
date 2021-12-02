@@ -1,5 +1,9 @@
+import { Hello } from "./components/Hello";
+
 const App = () => {
-	return <p>Hello World</p>;
+	return (
+			<Hello name={"Daniel"} />
+	);
 };
 
 export default App;
